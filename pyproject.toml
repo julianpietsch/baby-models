@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "baby-models"
+version = "0.30.0"
+description = "Models for the Birth Annotator for Budding Yeast"
+readme = "README.md"
+license = "MIT"
+license-files = { paths = ["LICENSE.txt"] }
+authors = [
+    { name = "Julian Pietsch", email = "julian.pietsch@ed.ac.uk" },
+]

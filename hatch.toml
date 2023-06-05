@@ -1,0 +1,6 @@
+[envs.default]
+dependencies = [
+    "pytest"
+]
+[envs.default.scripts]
+test = "pytest tests"

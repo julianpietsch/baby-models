@@ -1,0 +1,21 @@
+{
+  "name": "yeast-alcatras-brightfield-sCMOS-60x-5z",
+  "meta": {
+    "species": "yeast",
+    "device": "alcatras",
+    "channel": "brightfield",
+    "camera": "sCMOS",
+    "optical_zoom": 60,
+    "z_sections": 5,
+    "pixel_size": 0.182
+  },
+  "brain_params": {
+    "morph_model_file": "prime_ovlp_bf_60x_5z_20221219_cnn.h5",
+    "flattener_file": "prime_ovlp_bf_60x_5z_20221219_flattener.json",
+    "params": "prime_ovlp_bf_60x_5z_20221219_seg_params.json",
+    "celltrack_model_file": "ct_rf_20210201_12.pkl",
+    "budassign_model_file": "prime_ovlp_bf_60x_5z_20221219_mb_model.pkl",
+    "pixel_size": 0.182,
+    "default_image_size": [117, 117]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_python_NamedTuple": {
+    "cellgroups": null,
+    "edge_sub_dilations": [
+      0,
+      2,
+      0
+    ],
+    "interior_threshold": [
+      0.3,
+      0.7,
+      0.39999999999999997
+    ],
+    "nclosing": [
+      0,
+      0,
+      0
+    ],
+    "nopening": [
+      0,
+      0,
+      0
+    ],
+    "connectivity": [
+      1,
+      1,
+      1
+    ],
+    "min_area": 0,
+    "fit_radial": true,
+    "cartesian_spline": false,
+    "bbox_padding": [
+      10,
+      10,
+      10
+    ],
+    "nrays_thresh_map": [
+      {
+        "_python_tuple": [
+          5.0,
+          4
+        ]
+      },
+      {
+        "_python_tuple": [
+          20.0,
+          6
+        ]
+      }
+    ],
+    "nrays_max": 8,
+    "n_trials": 10,
+    "pxperknot": 4.0,
+    "squishiness": 0.1,
+    "alignedness": 10.0,
+    "curvy_knots": false,
+    "n_knots_fraction": 0.5,
+    "pedge_thresh": [
+      0.1,
+      0.2,
+      0.18
+    ],
+    "use_group_thresh": true,
+    "group_thresh_expansion": [
+      0.36,
+      0.4,
+      0.34
+    ],
+    "containment_func": "mask_containment",
+    "containment_thresh": 0.9
+  },
+  "__module__": "baby.morph_thresh_seg",
+  "__class__": "SegmentationParameters"
+}

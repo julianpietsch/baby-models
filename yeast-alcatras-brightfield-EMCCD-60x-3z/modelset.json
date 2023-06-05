@@ -1,0 +1,21 @@
+{
+  "name": "yeast-alcatras-brightfield-EMCCD-60x-3z",
+  "meta": {
+    "species": "yeast",
+    "device": "alcatras",
+    "channel": "brightfield",
+    "camera": "EMCCD",
+    "optical_zoom": 60,
+    "z_sections": 3,
+    "pixel_size": 0.263
+  },
+  "brain_params": {
+    "morph_model_file": "I3_evolve_unet_4s_20210215.hdf5",
+    "flattener_file": "flattener_60x_3z_evolve_20210215.json",
+    "params": "I3_evolve_unet_4s_20210215_seg_params.json",
+    "celltrack_model_file": "ct_rf_20210201_12.pkl",
+    "budassign_model_file": "mb_model_60x_3z_evolve_20210215.pkl",
+    "pixel_size": 0.263,
+    "default_image_size": [81, 81]
+  }
+}
