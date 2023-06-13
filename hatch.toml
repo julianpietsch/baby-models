@@ -4,3 +4,4 @@ dependencies = [
 ]
 [envs.default.scripts]
 test = "pytest tests"
+build = "python build.py"
