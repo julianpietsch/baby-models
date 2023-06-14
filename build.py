@@ -36,7 +36,7 @@ def main():
         'shared': [p.name for p in sharedir.iterdir()],
     }
     with open(modelsdir / MODEL_SPECS_FILE, 'wt') as f:
-        json.dump(model_specs, f)
+        json.dump(metadata, f)
 
 
 if __name__ == '__main__':
