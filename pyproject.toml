@@ -10,5 +10,5 @@ readme = "README.md"
 license = "MIT"
 license-files = { paths = ["LICENSE.txt"] }
 authors = [
-    { name = "Julian Pietsch", email = "julian.pietsch@ed.ac.uk" },
+    { name = "Julian Pietsch", email = "julian.pietsch@synmikro.mpi-marburg.mpg.de" },
 ]
