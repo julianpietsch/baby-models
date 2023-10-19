@@ -14,6 +14,7 @@
     "flattener_file": "flattener_60x_evolve_20210120.json",
     "params": "I5_evolve_unet_4s_20210120_seg_params.json",
     "celltrack_model_file": "ct_rf_20210201_12.pkl",
+    "celltrack_backup_model_file": "ct_rf_20210125_9.pkl",
     "budassign_model_file": "mb_model_60x_evolve_20210120.pkl",
     "pixel_size": 0.263,
     "default_image_size": [81, 81],
