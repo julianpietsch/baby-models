@@ -1,0 +1,21 @@
+{
+  "name": "ecoli-mothermachine-phase-sCMOS-100x-1z",
+  "meta": {
+    "species": "ecoli",
+    "device": "mothermachine",
+    "channel": "phase",
+    "camera": "sCMOS",
+    "optical_zoom": 100,
+    "z_sections": 1,
+    "pixel_size": 0.065
+  },
+  "brain_params": {
+    "morph_model_file": "mmSCMOS_phase_100x_1z_20220804_cnn.h5",
+    "flattener_file": "mmSCMOS_phase_100x_1z_20220804_flattener.json",
+    "params": "mmSCMOS_phase_100x_1z_20220804_seg_params.json",
+    "mmtracking": true,
+    "pixel_size": 0.065,
+    "default_image_size": [128, 128],
+    "nstepsback": 1
+  }
+}

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "baby-models"
-version = "0.30.0"
+version = "0.30.2"
 description = "Models for the Birth Annotator for Budding Yeast"
 readme = "README.md"
 license = "MIT"
